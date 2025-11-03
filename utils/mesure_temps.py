@@ -5,5 +5,5 @@ def nano_timer(func):
     func()
     end = time.time_ns()
     duration = end - start
-    print(f"المدة بالنانوسيكند: {duration} ns")
+    print(f"time: {duration} ns")
     return duration
