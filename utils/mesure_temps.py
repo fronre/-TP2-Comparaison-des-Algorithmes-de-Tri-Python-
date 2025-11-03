@@ -1,10 +1,9 @@
 import time
 
-def nano_timer(func):
+def measure_time_ns(func, *args, **kwargs):
+
     start = time.time_ns()
-    func()
+    func(*args, **kwargs)
     end = time.time_ns()
     duration = end - start
-    print(f"time: {duration} ns")
     return duration
-
