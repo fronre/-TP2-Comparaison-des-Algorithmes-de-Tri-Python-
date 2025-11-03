@@ -1,6 +1,10 @@
 import random
 
 def generer_table(n: int, dis: str) -> list[int]:
+
+    if n <= 0:
+        raise ValueError("n doit être supérieur à 0")
+
     if dis == 'c':
         return list(range(1, n + 1))
     elif dis == 'd':
