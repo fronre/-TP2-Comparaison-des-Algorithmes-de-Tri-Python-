@@ -16,3 +16,5 @@ def tri_selection(arr: List[int]) -> List[int]:
 if __name__ == "__main__":
     print(tri_selection([3,1,4,1,5,9,2,6]))
 
+
+
