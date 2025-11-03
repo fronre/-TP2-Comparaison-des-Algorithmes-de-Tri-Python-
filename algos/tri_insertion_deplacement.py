@@ -13,6 +13,6 @@ def tri_insertion_deplacement(arr: List[int]) -> tuple[list[int], int, int]:
             a[j + 1] = a[j]
             j -= 1
             deplacements += 1
-        comparaisons += 1  # pour la dernière comparaison fausse
+        comparaisons += 1
         a[j + 1] = key
     return a, comparaisons, deplacements

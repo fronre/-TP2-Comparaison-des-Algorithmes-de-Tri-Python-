@@ -16,3 +16,4 @@ def tri_insertion_echange(arr: List[int]) -> tuple[list[int], int, int]:
             else:
                 break
     return a, comparaisons, deplacements
+
