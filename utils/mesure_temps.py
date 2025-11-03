@@ -7,3 +7,4 @@ def nano_timer(func):
     duration = end - start
     print(f"time: {duration} ns")
     return duration
+
